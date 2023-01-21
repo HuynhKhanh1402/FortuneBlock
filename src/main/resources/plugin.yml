@@ -1,0 +1,5 @@
+name: FortuneBlock
+version: '${project.version}'
+main: me.khanh.plugins.fortuneblock.FortuneBlockPlugin
+authors: [ KhanhHuynh ]
+description: Fortune for block

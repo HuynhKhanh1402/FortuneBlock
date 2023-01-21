@@ -1,0 +1,19 @@
+CalculationFormula:
+  # Sử dụng công thức tính gia tài của minecraft
+  # Ví dụ bạn có phù phép gia tài ở cấp độ 3 thì khi đập cái khối sẽ có tỉ lệ rơi ra số lượng khối đó tự 1-3 khối
+  UseVanilaMinecraftFortuneFormula: false
+
+  NonVanileMinecraftFortuneFormula:
+    # Mỗi cấp độ gia tài sẽ tăng tỉ lệ gấp đôi khối. Nếu tỉ lệ hơn 100% thì phần thừa sẽ tăng tỉ l nhận khối thứ 3
+    # Ví dụ: gia tài cấp độ 3 sẽ có 12%(0.12) tạo ra khối thứ 2
+    # Ví dụ: gia tài cấp độ 30 sẽ có 120%(1.2) thì 100% sẽ tạo ra khối thứ 2 và 20% tạo ra khối thứ 3
+    IncreasePercentPerLevel: 0.04
+
+Blocks:
+  - COAL_BLOCK
+  - LAPIS_BLOCK
+  - IRON_BLOCK
+  - GOLD_BLOCK
+  - REDSTONE_BLOCK
+  - DIAMOND_BLOCK
+  - EMERALD_BLOCK
